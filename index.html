@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Results summary component</title>
+</head>
+
+<body>
+
+  <main class="component-container">
+    <!-- Result Panel -->
+    <section class="result-panel">
+      <h1 class="result-title">Your Result</h1>
+      <div class="score-circle">
+        <span class="score-main">76</span>
+        <span class="score-max">of 100</span>
+      </div>
+      <div class="result-text">
+        <h2 class="status">Great</h2>
+        <p class="description">You scored higher than 65% of the people who have taken these tests.</p>
+      </div>
+    </section>
+
+    <!-- Summary Panel -->
+    <section class="summary-panel">
+      <h2 class="summary-title">Summary</h2>
+      <ul class="summary-list" id="summary-list">
+        <li class="summary-item category-reaction">
+          <div class="item-left">
+            <img src="./assets/images/icon-reaction.svg" alt="Reaction icon" />
+            <span>Reaction</span>
+          </div>
+          <div class="item-score">
+            80 <span>/ 100</span>
+          </div>
+        </li>
+        <li class="summary-item category-memory">
+          <div class="item-left">
+            <img src="./assets/images/icon-memory.svg" alt="Memory icon" />
+            <span>Memory</span>
+          </div>
+          <div class="item-score">
+            92 <span>/ 100</span>
+          </div>
+        </li>
+        <li class="summary-item category-verbal">
+          <div class="item-left">
+            <img src="./assets/images/icon-verbal.svg" alt="Verbal icon" />
+            <span>Verbal</span>
+          </div>
+          <div class="item-score">
+            61 <span>/ 100</span>
+          </div>
+        </li>
+        <li class="summary-item category-visual">
+          <div class="item-left">
+            <img src="./assets/images/icon-visual.svg" alt="Visual icon" />
+            <span>Visual</span>
+          </div>
+          <div class="item-score">
+            72 <span>/ 100</span>
+          </div>
+        </li>
+      </ul>
+      <button class="continue-btn">Continue</button>
+    </section>
+  </main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Abd Alazez</a>.
+  </footer>
+</body>
+
+</html>
